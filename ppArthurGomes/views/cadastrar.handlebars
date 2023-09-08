@@ -1,0 +1,31 @@
+<h1>Cadastrar Livro</h1>
+<div class="form-container">
+    <form class="form-control" action="/cadastrar/inserirlivro" method="post">
+        <label for="nome_livro">Título do Livro:</label>
+        <input type="text" name="nome_livro" placeholder="Digite o nome do livro...">
+    
+    
+        <label for="categoria">Categoria do Livro:</label>
+        <input type="text" name='categoria' placeholder="Digite a categoria do livro...">
+   
+ 
+        <label for="descricao">Descrição do Livro:</label>
+        <input class="desc" type="text" name='descricao' placeholder="Digite a descrição do livro..." style="height: 100px;">
+        
+        <div class="form-footer">
+
+        <label for="preco">Preço do livro:</label>
+        <input type="number" name="preco" placeholder="R$50,00">
+    
+        <label for="quant_livro">Quantidade disponível:</label>
+        <input type="number" name="quant_livro" placeholder="{{quant_livros}}">
+        </div>
+
+        <input class="button" type="button" name="cadastrar" value="Cadastrar" >
+        
+        </form>
+   
+    
+    
+    
+</div>

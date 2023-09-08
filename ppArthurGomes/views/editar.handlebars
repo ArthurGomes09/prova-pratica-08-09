@@ -1,0 +1,31 @@
+<h2>Edite seu Livro!</h2>
+<div class="form-container">
+    <form class="form-control" action="/editar" method="post">
+        <label for="">Título do Livro:</label>
+        <input type="text" name="nome_livro" placeholder="Digite o nome do livro...">
+    
+    
+        <label for="">Categoria do Livro:</label>
+        <input type="text" name='categoria' placeholder="Digite a categoria do livro...">
+   
+ 
+        <label for="">Descrição do Livro:</label>
+        <input class="desc" type="text" name='descricao' placeholder="Digite a descrição do livro..." style="height: 100px;">
+        <div class="form-footer">
+        <form action="">
+        <label for="">Preço do livro:</label>
+        <input type="number" name="preco" placeholder="R$50,00">
+    
+        <label for="">Quantidade disponível:</label>
+        <input type="number" name="quant_livro" placeholder="{{quant_livros}}">
+        <input class="button" type="button" name="cadastrar" value="Cadastrar">
+        </form>
+        </div>
+        
+        
+        </form>
+   
+    
+    
+    
+</div>
